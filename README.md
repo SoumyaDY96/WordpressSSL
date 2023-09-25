@@ -28,6 +28,6 @@ sudo docker compose -f docker-compose-pre.yaml **commands
 
 **"phpdockerfile"** is used to install more extensions on the base image of ```php:7.4-fpm-alpine```.
 
-It is possible that ```"wp-cofig.php"``` may not appear after first setup; for that, copy the php from browser and put into "wp-cofig.php" inside wordpress folder and save it.
+It is possible that ```"wp-config.php"``` may not appear after first setup; for that, copy the php from browser and put into "wp-config.php" inside wordpress folder and save it.
 
 **Kindly look into the main script before installation !!**
