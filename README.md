@@ -3,9 +3,9 @@ Secure wordpress website hosting using LEMP stack and SSL running on Docker cont
 
 Download all the files in a single directory.
 
-Make sure to change execute permission for **"main_script_wordpress.sh"** using: 
+Make sure to change execute permission for **"main_script.sh"** using: 
 ```
-sudo chmod +x main_script_wordpress.sh
+sudo chmod +x main_script.sh
 ```
 
 The current project is done using **Docker Compose** and **LEMP (Linux, NGINX, MySQL and PHP)** stack and **Certbot** on an ```EC2``` instance using ```Ubuntu22.04 AMI```.
