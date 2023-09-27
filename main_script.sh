@@ -13,9 +13,6 @@ mkdir ./letsencrypt/www
 mkdir ./letsencrypt/cert
 mkdir ./nginx
 
-echo -e "\033[1;34mCreate folder for mysql\033[0m"
-mkdir dbdata
-
 echo -e "\033[1;31mcopy nginx-pre and nginx-ssl config file to nginx folder\033[0m"
 cp nginx-pre.conf nginx-ssl.conf ./nginx
 
