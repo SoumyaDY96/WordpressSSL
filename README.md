@@ -12,6 +12,8 @@ The current project is done using **Docker Compose** and **LEMP (Linux, NGINX, M
 
 **"install-docker.sh"** file is used to install newer version of docker and docker compose along with their corresponding plugins.
 
+Configure and Register the domain name with the Public IP either by ```Amazon Route 53``` or any third party website.
+
 **"docker-compose-pre.yaml"** is the prerequisite compose file to create the respective Certbot and Nginx containers to generate **SSL certificates** for the domain.
 Once the job is done the ```containers will be removed.```
 
